@@ -1,0 +1,16 @@
+*.pyc
+.vscode
+output
+renders
+temp
+data
+build
+edited
+assets
+*.ply
+**/PKG-INFO
+**__pycache__**
+*.png
+*.out
+*.npz
+**/tmp

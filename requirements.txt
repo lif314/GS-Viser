@@ -1,0 +1,20 @@
+# torch
+# torchvision
+pillow==10.2.0
+pip==23.3.1
+typing_extensions==4.9.0
+open3d==0.18.0
+mediapy==1.1.2
+lpips==0.1.4
+scikit-image==0.21.0
+tqdm==4.66.2
+trimesh==4.3.2
+pyngrok
+viser==0.1.29 
+splines 
+lightning==1.8.4
+plyfile
+2d_gaussian_splatting/submodules/diff-surfel-rasterization
+2d_gaussian_splatting/submodules/simple-knn
+3d_gaussian_splatting/submodules/diff-gaussian-rasterization
+3d_gaussian_splatting/submodules/fused-ssim
