@@ -1,35 +1,40 @@
 # Offine Viser Viewer for 2D and 3D Gaussian Splatting
 
 ## Installation
-- python version: <= 3.8
-
 ```bash
 cd GS-Viser-Viewer
-pip install viser==0.1.29
-pip install lightning==1.8.4
+pip install -r requirements.txt
+
+# Install GS Deps
+pip install 2d_gaussian_splatting/submodules/diff-surfel-rasterization
+pip install 2d_gaussian_splatting/submodules/simple-knn
+pip install 3d_gaussian_splatting/submodules/diff-gaussian-rasterization
+pip install 3d_gaussian_splatting/submodules/fused-ssim
 ```
 
 ## Usage
 - Linux
 ```bash
-# 2D or 3D Gaussian Splatting
+# 2D Gaussian Splatting
 gs_mode="2d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path>
+# 3D Gaussian Splatting
 gs_mode="3d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path>
-
-### enable transform mode
-gs_mode="2d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path> --enable_transform
-gs_mode="3d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path> --enable_transform
 ```
 
-- Windows
+- Windows PowerShell
 ```bash
-# 2D or 3D Gaussian Splatting
-set gs_mode="2d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path>
-set gs_mode="3d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path>
+# 2D Gaussian Splatting
+$env:gs_mode = "2d"; python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path>
+# 3D Gaussian Splatting
+$env:gs_mode = "3d"; python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path>
+```
 
-### enable transform mode
-set gs_mode="2d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path> --enable_transform
-set gs_mode="3d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path> --enable_transform
+- Windows CMD
+```bash
+# 2D Gaussian Splatting
+set gs_mode="2d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path>
+# 3D Gaussian Splatting
+set gs_mode="3d" python gs_viewer.py <path to pre-trained model> <or direct path to the ply file> -s <data source path>
 ```
 
 ### Control 

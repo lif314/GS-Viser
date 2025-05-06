@@ -269,14 +269,14 @@ class Viewer:
     def _setup_titles(self, server):
         buttons = (
             TitlebarButton(
-                text="Simple Viser Viewer for 2D Gaussian Splatting",
+                text="Offline Viser Viewer for 2D/3D Gaussian Splatting",
                 icon="GitHub",
-                href="https://github.com/hwanhuh/2D-GS-Viser-Viewer/tree/main",
+                href="https://github.com/lif314/GS-Viser/tree/main",
             ),
             TitlebarButton(
-                text="Hwan Heo",
+                text="lif314",
                 icon="GitHub",
-                href="https://github.com/hwanhuh",
+                href="https://github.com/lif314",
             ),
         )
         image = TitlebarImage(
