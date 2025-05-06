@@ -1,8 +1,11 @@
 # Offline Viser Viewer for 2D and 3D Gaussian Splatting
 
-<video width=600 controls>
-  <source src="assets/gs-viser-test.mp4" type="video/mp4">
-</video>
+<html>
+  <video width=600 controls>
+      <source src="assets/gs-viser-test.mp4" type="video/mp4">
+  </video>
+</html>
+
 ## Installation
 
 ```bash
@@ -10,7 +13,7 @@ git clone https://github.com/lif314/GS-Viser.git --recursive
 cd GS-Viser
 pip install -r requirements.txt
 
-# install 2D/3D GS deps (torch, et al.)
+# Install the 2D/3D GS environment, including torch, etc.
 pip install 2d_gaussian_splatting/submodules/diff-surfel-rasterization
 pip install 2d_gaussian_splatting/submodules/simple-knn
 pip install 3d_gaussian_splatting/submodules/diff-gaussian-rasterization
