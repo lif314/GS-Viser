@@ -2,6 +2,7 @@
 
 ## Installation
 ```bash
+git clone https://github.com/lif314/GS-Viser.git --recursive
 cd GS-Viser-Viewer
 pip install -r requirements.txt
 
