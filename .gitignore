@@ -6,7 +6,6 @@ temp
 data
 build
 edited
-assets
 *.ply
 **/PKG-INFO
 **__pycache__**
