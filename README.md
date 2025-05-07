@@ -1,6 +1,10 @@
-# Offline Viser Viewer for 2D and 3D Gaussian Splatting
+# Offline Viser Viewer for Vanilla 2D and 3D Gaussian Splatting
 
-![video](assets/gs-viser-test.gif)
+<p align="center">
+  <a href="">
+    <img src="./assets/gs-viser-test.gif" alt="teaser" width="95%">
+  </a>
+</p>
 
 ## Installation
 
