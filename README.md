@@ -1,10 +1,6 @@
 # Offline Viser Viewer for 2D and 3D Gaussian Splatting
 
-<html>
-  <video width=600 controls>
-      <source src="assets/gs-viser-test.mp4" type="video/mp4">
-  </video>
-</html>
+![video](assets/gs-viser-test.gif)
 
 ## Installation
 
